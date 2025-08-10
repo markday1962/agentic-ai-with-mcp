@@ -1,0 +1,15 @@
+langchain
+openai
+tiktoken
+python-dotenv
+rich
+
+## Provides LLM and tool wrappers
+langchain-openai
+
+## For schema validation
+pydantic
+
+## For exposing agents of the HTTP if desired
+fastapi
+uvicorn
