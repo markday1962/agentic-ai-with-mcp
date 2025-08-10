@@ -15,6 +15,7 @@ llm = ChatOpenAI(
   openai_api_key=api_key
 )
 
+
 # Basic tool for function calling
 @tool
 def get_exchange_rate(from_currency: str, to_currency: str) -> str:
