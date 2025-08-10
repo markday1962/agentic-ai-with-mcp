@@ -2,5 +2,5 @@
 ```
 python3 -m venv basic-tool-for-function-calling-env
 source basic-tool-for-function-calling-env/bin/activate
-pip install -f requirements.txt
+pip install -r requirements.txt
 ```
