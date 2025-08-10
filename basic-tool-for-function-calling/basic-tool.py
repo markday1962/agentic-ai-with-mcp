@@ -13,3 +13,10 @@ llm = ChatOpenAI(
   openai_api_key=api_key
 )
 
+# Basic tool for function calling
+from langchain.tools import tool
+
+@tool
+def get_exchange_rate(from_currency: str, to_currency: str) -> str:
+  """Returns a dummy exchnage rate between two currencies"""
+  return f"1 {from_currency} = 1.09 {to_currency}"
